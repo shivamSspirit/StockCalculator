@@ -1,0 +1,87 @@
+.head-stock{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.forms-input{
+    background-color: transparent;
+}
+
+.forms-first-block{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin:0 auto;
+}
+
+.forms-second-block{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin:0 auto;
+}
+
+.forms-third-block{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin:0 auto;
+}
+
+.lableforinitialvalue{
+    margin-bottom:12px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.lableforstockvalue{
+    margin-bottom:12px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.lableforlastvalue{
+    margin-bottom:12px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.stockpriceinputvalue{
+    width: 200px;
+    height: max-content;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.stockinputvalue{
+    width: 200px;
+    height: max-content;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.currentinputvalue{
+    width: 200px;
+    height: max-content;
+    background-color: transparent;
+    padding: 15px;
+
+
+}
+
+.calculate-btn-stock{
+    margin-top: 20px;
+    color: rgb(218, 215, 221);
+    width: auto;
+    font-size: medium;
+    background-color: rgb(46, 32, 32);
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5%;
+}
+
+.result-val{
+    color: cornflowerblue;
+    font: 500 large;
+}
