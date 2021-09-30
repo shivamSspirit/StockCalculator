@@ -42,7 +42,6 @@ function Stockcal() {
 
 	const CalcHandler = () => {
 		calculateProfitAndLoss();
-		settoggle(true);
 	};
 	return (
 		<>
