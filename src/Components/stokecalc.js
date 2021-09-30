@@ -5,7 +5,6 @@ function Stockcal() {
 	const [initailStockvalue, setinitialStockValue] = useState(0);
 	const [noofstocks, setNoofstocks] = useState(0);
 	const [currentStockvalue, setcurrentStockvalue] = useState(0);
-	const [toggle, settoggle] = useState(false);
 
 	const [profit, setProfit] = useState({ profitval: 0, profitper: 0 });
 	const [Loss, setLoss] = useState({ lossval: 0, lossPer: 0 });
@@ -94,11 +93,7 @@ function Stockcal() {
 				</button>
 			</div>
 
-			{/* {toggle === false ? (
-				<></>
-			) : ( */}
 			<div className="result-val">
-				{/* {initailStockvalue > currentStockvalue */}
 				{Loss.lossval &&
 					Loss.lossPer &&
 					`there is a loss of ${Loss.lossval} and loss percentage is ${Loss.lossPer}%`}
@@ -108,7 +103,6 @@ function Stockcal() {
 					profit.profitval &&
 					`yaya there is a profit of ${profit.profitval} and profit percentage is ${profit.profitper}%`}
 			</div>
-			{/* )} */}
 		</>
 	);
 }
